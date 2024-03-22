@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="scorekeeper.css">
+</head>
+<body>
+<section class="container">
+    <figure>
+        <img src="scorekeeperimages/tafeltennis.jpg" alt="Ping pong afbeelding">
+        <figcaption>Ping Pong Scorekeeper</figcaption>
+    </figure>
+
+    <div class="text_container">
+        <h3><span id="left_score"></span> to <span id="right_score"></span></h3>
+        <p><strong>Playing to </strong><SELECT id="selectOne">
+            <OPTION>6</OPTION>
+            <OPTION>5</OPTION>
+            <OPTION>4</OPTION>
+            <OPTION>3</OPTION>
+            <OPTION>2</OPTION>
+            <OPTION>1</OPTION></SELECT></p>
+            </div>
+            <div class="buttoncontainer">
+                <button id="update_leftScore">Update left</button>
+                <button id="update_rightScore">Update right</button>
+                <button id="resetScore">Reset</button>
+            </div>
+  
+
+</section>
+
+
+<script src="scorekeeper.js"></script>
+</body>
+</html>
